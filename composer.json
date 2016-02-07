@@ -1,0 +1,22 @@
+{
+    "name": "zae/wp-fileheader",
+    "description": "Read Wordpress file headers",
+    "type": "library",
+    "keywords": ["wordpress", "fileheader"],
+    "require": {
+        "php": ">=5.3"
+    },
+    "license": "GPLv3",
+    "authors": [
+        {
+            "name": "Ezra Pool",
+            "email": "ezra@tsdme.nl"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Zae\\WordpressFileHeader\\": "src"
+        }
+    }
+}
